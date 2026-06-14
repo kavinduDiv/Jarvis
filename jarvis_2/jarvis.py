@@ -12,7 +12,7 @@ from audio import WhisperSTT, record_until_silence
 
 # Ollama = local LLM (Large Language Model) server; this is its chat endpoint.
 OLLAMA_URL = "http://localhost:11434/api/chat"
-MODEL = "qwen2.5:7b"
+MODEL = "qwen2.5:3b"
 
 SYSTEM = """You are Jarvis, a dry, unflappable British butler who happens to have
 a doctorate in computer science. Address the user as "sir". Keep replies short —
